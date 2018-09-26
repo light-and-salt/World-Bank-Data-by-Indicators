@@ -16,3 +16,4 @@ drop col: column64 action: Drop
 filter type: missing missing: value action: Delete
 pivot col: {Indicator Name} group: {Country Name},{Country Code},Year value: SUM(value) limit: 50
 ```
+If you have problem using this data, please file an [issue](https://github.com/ZeningQu/World-Bank-Data-by-Indicators/issues) or send a [pull request](https://github.com/ZeningQu/World-Bank-Data-by-Indicators/pulls).
